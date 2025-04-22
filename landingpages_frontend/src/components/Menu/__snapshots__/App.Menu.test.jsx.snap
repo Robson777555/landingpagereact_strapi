@@ -1,0 +1,571 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> should not render links 1`] = `
+.c4 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c7 {
+  color: #0A1128;
+  background: transparent;
+  padding: 1rem;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.c2 {
+  font-family: 'Open Sans',sans-serif;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #FFFFFF;
+  transition: all 300ms ease-in-out;
+  border-bottom: 1px solid #eee;
+}
+
+.c5 {
+  font-family: 'Open Sans',sans-serif;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  height: 10px;
+}
+
+.c0 {
+  font-family: 'Open Sans',sans-serif;
+  z-index: 6;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  background: #0A1128;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  pointer-events: all;
+}
+
+.c0:hover {
+  transform: scale(1.1);
+}
+
+.c0 svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: auto;
+}
+
+.c8 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 3.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.c8 >img {
+  height: 3rem;
+  width: auto;
+}
+
+.c9 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .c2 {
+    height: 100vh;
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .c2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 300ms ease-in-out,visibility 300ms ease-in-out;
+    z-index: -1;
+  }
+
+  .c2 >.c3 {
+    display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .c2 .c6 {
+    padding-bottom: 3.2rem;
+    display: none;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .c5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2.4rem 0;
+    min-height: auto;
+    max-height: 90vh;
+    overflow-y: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .c0 {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .c9 {
+    flex-flow: column nowrap;
+    align-items: stretch;
+    width: 100%;
+    margin-top: 2.4rem;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-bottom: 3.2rem;
+    gap: 0;
+  }
+}
+
+<div>
+  <button
+    aria-label="Open/Close menu"
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open menu"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </button>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3 c4"
+    >
+      <div
+        class="c5"
+      >
+        <h1
+          class="c6 c7"
+        >
+          <a
+            class="c8"
+            href="#target"
+            target="_blank"
+          >
+            Logo
+          </a>
+        </h1>
+        <nav
+          aria-label="Main menu"
+          class="c9"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Menu /> should render logo and Main Menu Nav 1`] = `
+.c4 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+.c7 {
+  color: #0A1128;
+  background: transparent;
+  padding: 1rem;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.c2 {
+  font-family: 'Open Sans',sans-serif;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #FFFFFF;
+  transition: all 300ms ease-in-out;
+  border-bottom: 1px solid #eee;
+}
+
+.c5 {
+  font-family: 'Open Sans',sans-serif;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+  height: 10px;
+}
+
+.c0 {
+  font-family: 'Open Sans',sans-serif;
+  z-index: 6;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  background: #0A1128;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  pointer-events: all;
+}
+
+.c0:hover {
+  transform: scale(1.1);
+}
+
+.c0 svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: auto;
+}
+
+.c8 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 3.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.c8 >img {
+  height: 3rem;
+  width: auto;
+}
+
+.c10 {
+  display: block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  color: #0A1128;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.c10::after {
+  content: '';
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background-color: #dc143c;
+  transition: all 300ms ease-in-out;
+}
+
+.c10:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+.c9 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .c2 {
+    height: 100vh;
+    background: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .c2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 300ms ease-in-out,visibility 300ms ease-in-out;
+    z-index: -1;
+  }
+
+  .c2 >.c3 {
+    display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .c2 .c6 {
+    padding-bottom: 3.2rem;
+    display: none;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .c5 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2.4rem 0;
+    min-height: auto;
+    max-height: 90vh;
+    overflow-y: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .c0 {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .c10 {
+    font-size: 2.4rem;
+    padding: 2.4rem;
+    text-align: center;
+    min-height: 44px;
+    display: block;
+    width: 100%;
+  }
+
+  .c10::after {
+    bottom: 0.5rem;
+    width: 0;
+  }
+
+  .c10:hover::after {
+    left: 25%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .c9 {
+    flex-flow: column nowrap;
+    align-items: stretch;
+    width: 100%;
+    margin-top: 2.4rem;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-bottom: 3.2rem;
+    gap: 0;
+  }
+}
+
+<div>
+  <button
+    aria-label="Open/Close menu"
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open menu"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </button>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3 c4"
+    >
+      <div
+        class="c5"
+      >
+        <h1
+          class="c6 c7"
+        >
+          <a
+            class="c8"
+            href="#target"
+            target="_blank"
+          >
+            Logo
+          </a>
+        </h1>
+        <nav
+          aria-label="Main menu"
+          class="c9"
+        >
+          <a
+            class="c10"
+            href="#target1"
+            rel=""
+            target="_self"
+          >
+            link 1
+          </a>
+          <a
+            class="c10"
+            href="#target2"
+            rel=""
+            target="_self"
+          >
+            link 2
+          </a>
+          <a
+            class="c10"
+            href="#target3"
+            rel=""
+            target="_self"
+          >
+            link 3
+          </a>
+          <a
+            class="c10"
+            href="#target4"
+            rel=""
+            target="_self"
+          >
+            link 4
+          </a>
+          <a
+            class="c10"
+            href="#target5"
+            rel=""
+            target="_self"
+          >
+            link 5
+          </a>
+          <a
+            class="c10"
+            href="#target6"
+            rel=""
+            target="_self"
+          >
+            link 6
+          </a>
+          <a
+            class="c10"
+            href="#target7"
+            rel=""
+            target="_self"
+          >
+            link 7
+          </a>
+          <a
+            class="c10"
+            href="#target8"
+            rel=""
+            target="_self"
+          >
+            link 8
+          </a>
+          <a
+            class="c10"
+            href="#target9"
+            rel=""
+            target="_self"
+          >
+            link 9
+          </a>
+          <a
+            class="c10"
+            href="#target10"
+            rel=""
+            target="_self"
+          >
+            link 10
+          </a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+`;

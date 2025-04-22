@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "target": "ES2021",
+    "checkJs": true,
+    "allowJs": true
+  },
+  "include": [
+    "**/*", // Inclui todos os arquivos do projeto
+    "types.d.ts" // Adiciona o arquivo de definição de tipos
+  ]
+}

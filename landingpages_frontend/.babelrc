@@ -1,0 +1,22 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic" // Remove a necessidade de 'import React'
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true, //  Ativa suporte a SSR (obrigatório para Next.js)
+        "displayName": true, //  Melhora debugging no DevTools
+        "preprocess": false, //  Apenas se usar Sass/Less dentro do styled-components
+        "pure": true
+      }
+    ]
+  ]
+}

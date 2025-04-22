@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_section_text_grids",
+  "info": {
+    "displayName": "text-grid",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 55,
+      "minLength": 3
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 500,
+      "minLength": 3
+    }
+  }
+}
